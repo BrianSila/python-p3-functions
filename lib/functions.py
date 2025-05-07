@@ -2,15 +2,20 @@
 
 def greet_programmer():
     pass
+    print("Hello, programmer!")
 
-def greet(name):
+def greet(name = "Brian"):
     pass
+    print(f"Hello, {name}!")
 
-def greet_with_default(name="programmer"):
+def greet_with_default(name = "programmer"):
     pass
+    print(f"Hello, {name}!")
 
-def add(num1, num2):
+def add(num1 =1 , num2 =2 ):
     pass
+    return num1 + num2
 
-def halve(number):
+def halve(number = 10):
     pass
+    return number / 2
